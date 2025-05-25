@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import pdfjsWorker from "pdfjs-dist/build/pdf.worker.min.js?url";
 pdfjs.GlobalWorkerOptions.workerSrc = pdfjsWorker;
 
-const BACKEND_URL = "http://localhost:3000";
+const BACKEND_URL = "https://pdf-management-hmrs.onrender.com";
 
 const ViewPDF = () => {
   const { pdfId } = useParams();
