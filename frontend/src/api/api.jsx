@@ -1,8 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  // baseURL: "https://pdf-collaborator.onrender.com/api",
-  baseURL: "http://localhost:3000/api",
+  baseURL: "https://pdf-management-hmrs.onrender.com/api",
 });
 
 // Add request interceptor for tokens
